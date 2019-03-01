@@ -1,4 +1,7 @@
-header="#\0041/bin/bash\n#BSUB -J genomecov\n#BSUB -o genomecov.out\n#BSUB -e genomecov.err\n#BSUB -W 120:00\n#BSUB -q bigmem\n#BSUB -n 1\n#BSUB -R \"rusage[mem=10240]\"\n#BSUB -u jlh267@miami.edu"
+header="#\0041/bin/bash\n#BSUB -J genomecov\n#BSUB -o genomecov.out\n#BSUB -e genomecov.err\n#BSUB -W 120:00\n#BSUB -q bigmem\n#BSUB -n 1\n#BSUB -R \"rusage[mem=10240]\"\n"
+
+## The code needs to be modified before using
+
 ## configure parameters
 f=$1
 if test $# -ge 2; then
