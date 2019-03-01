@@ -4,6 +4,7 @@ The R code was developed to draw the genomic track of signals for next-generatio
 Usage: Rscript R.browser.r [options]
 
 Options:
+
         -d CHARACTER, --directory=CHARACTER
                 To specify a directory which stores BEDGRAPH files. Default: NULL. Required.
 
