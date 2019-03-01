@@ -88,6 +88,9 @@ Options:
                 
 For example: 
 1. Linux/macOS
+
 Rscript $HOME/Visual/R.browser.r -d $HOME/Visual -m batch -f $HOME/Visual/Final.list.txt -p .bdg --labels P6_WT,P23_WT,P6_Math5KO,P23_Math5KO.DMR --colors blue,blue,red,red,black --show_ylim T,T,T,T,F --layout_config 3,3,3,3,1.5 --color_transparent 1 --figure_width 600 --figure_height 300 --layout_width 1:3 -o $HOME/Visual
+
 2. Windows
+
 /Progra~1/R/R-3.5.0/bin/Rscript.exe ./Figures/Visual/R.browser.r -d Figures/Visual -m batch -f ./Figures/Visual/Final.list.txt -p .bdg --labels P6_WT,P23_WT,P6_Math5KO,P23_Math5KO,DMR --colors blue,blue,red,red,black --show_ylim T,T,T,T,F --layout_config 3,3,3,3,1.5 --color_transparent 1 --figure_width 600 --figure_height 300 --layout_width 1:3 -o ./Figures/Visual
